@@ -515,7 +515,7 @@ Recipes
     grid-template-columns: 1fr 1fr;
   }
   .recipe-img {
-    height: 200px;
+    height: 250px;
   }
 }
 
@@ -741,17 +741,20 @@ Recipe Template
 .single-instruction header {
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 1.5rem;
+  gap: 1rem;
   align-items: center;
 }
 .single-instruction header p {
   text-transform: uppercase;
   font-weight: 600;
   color: var( --primary);
-  margin-bottom: 0;
+  margin-bottom: 0px;
+
 }
 .single-instruction > p {
   color: var(--grey-700);
+  font-size: 14px;
+
 }
 
 .single-instruction header div {
@@ -768,6 +771,7 @@ Recipe Template
   border-bottom: 2px solid var(--grey-300);
   padding-bottom: 0.75rem;
   color: var(--grey-700);
+  font-size: 14px;
 }
 .single-tool {
   border-bottom: 2px solid var(--grey-300);
